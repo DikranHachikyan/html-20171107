@@ -1,0 +1,54 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Page 01</title>
+        <meta charset="UTF-8"> 
+        <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+        <script>tinymce.init({ selector:'#notes' });</script>  
+    </head>
+    <body>
+        <ul>
+            <li><a href="page01.html">Основни структурни елементи + хип.вр.</a></li>
+            <li><a href="page02.html">Картинки</a></li>
+            <li>Списъци</li>
+        </ul>
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <form method="get" action="">
+           <label for="user-name">Име</label>
+           <input type="text" id="user-name" name="firstName" value="Ива"><br>
+           <label>Фамилия<input type="text" name="lastName"></label><br>
+           <label>Парола<input type="password" name="pass"></label><br>
+           <input type="text" placeholder="Мобилен телефон" name="mobile"><br>
+           <input type="email" placeholder="name@no.com" name="mail"><br>
+           <label><input type="checkbox" checked="checked" name="agr">Съгласен съм с условията</label>
+           <br>
+           <label><input type="radio" value="1" name="payment" checked="checked">VISA</label><br>
+           <label><input type="radio" value="2" name="payment">Master</label><br>
+           <label><input type="radio" value="3" name="payment">Банка</label><br>
+           <br>
+           <select name="city">
+               <option value="0">--- Град ---</option> 
+               <option value="1">София</option>
+               <option value="2" selected="selected">Пловдив</option>
+               <option value="3">Варна</option>
+               <option value="4">Бургас</option>
+           </select>
+           <br>
+           <select name="dst" size="3" multiple="multiple">
+               <option value="0">--- Град ---</option> 
+               <option value="1">София</option>
+               <option value="2">Пловдив</option>
+               <option value="3">Варна</option>
+               <option value="4">Бургас</option>
+           </select>
+           <br>
+           <textarea name="notes" id="notes" cols="30" rows="10"></textarea> 
+           <br>
+           <input type="button" value="JS Button">
+           <input type="submit" value="Regiter">
+           <button>Button Tag</button>
+        </form>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos fugit dolorem officia, inventore iusto accusantium possimus nostrum odio architecto, ab nesciunt unde quas delectus voluptatum provident, distinctio eaque nisi natus.</p>
+    </body>
+</html>
