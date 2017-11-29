@@ -1,0 +1,28 @@
+.d4, .d5 {
+    clear: both;
+    width: 100%;
+}
+
+.d3 {
+    margin-left: 35%;
+    margin-right: 32%;
+}
+
+.d2 {
+    float: right;
+    width: 30%;
+}
+
+.d1 {
+    width: 34%;
+    float: left;
+    background-color: yellow;
+}
+
+div {
+    border: 1px solid red;
+}
+
+.d6 {
+    display: none;
+}
