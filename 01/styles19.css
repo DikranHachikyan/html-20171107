@@ -1,0 +1,87 @@
+/*
+    https://getbootstrap.com/docs/3.3/css/
+*/
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+}
+
+.img {
+    display: block;
+    width:100%;
+}
+
+ul{
+    list-style: none;
+}
+
+.menu-toggle {
+    border-style: none;
+}
+
+.nav-menu a{
+    text-decoration: none
+}
+
+.img{
+        max-width: 300px;
+}
+
+.clearfix{
+    display: block;
+    clear:both;
+} 
+
+@media (max-width: 768px) {
+    .img{
+        min-width: 100px;
+        margin-top: 18px;
+    }
+    .main-menu-container{
+        display: none;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    h3 {
+        font-size: 1.1em;
+    }
+
+    .main-navigation {
+       float:right;
+    }
+    .title{
+        width:67%;
+        display: inline-block;
+    }
+}
+
+
+@media (min-width: 769px) {
+  .main-menu-container{
+        display: block;
+    }
+  .menu-toggle {
+    display: none;
+   }
+  .nav-menu {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .menu-item {
+    margin-left: 10px;
+  }
+  .title {
+    width: 40%;
+    display: inline-block;
+  }
+  .main-navigation {
+       float:right;
+       margin-right: 3%;
+  }
+  
+}
